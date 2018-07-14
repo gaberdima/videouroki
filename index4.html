@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document4</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="vu_logo1_2.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+			    $('.header-top, .sidebar, .select-group-top, .select-group-bottom').on('click', 'li', function(event) {
+			         $(this).addClass("active").siblings().removeClass("active");  
+			         //event.preventDefault();
+			    });
+			});
+		</script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header-top">
+				<ul>
+					<li class="" ><a href="index.html">Учителю</a></li>
+					<li class=""><a href="index2.html">Разработки</a></li>
+					<li class=""><a href="index3.html">Комплекты</a></li>
+					<li class="active"><a href="index4.html">Олимпиады</a></li>
+					<li class=""><a href="index5.html">Вебинары</a></li>
+				</ul>
+			</div>
+			<div class="header-bottom">
+				<div class="header-bottom-inner">
+					<div class="left">
+						<img src="vu_logo1_2.png" alt=""></div>
+					<div class="right">
+						<p>Выберите проект, оформите заказ и получите его</p>
+					</div>
+					<div class="center">
+							<p>Видеоуроки для учителей, родителей и учеников</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="baner">
+				<img src="vu_shop_jan17.png" alt="">
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li class="active"><a href="#">Все проекты</a></li>
+					<li><a href="#">Начальные классы</a></li>
+					<li><a href="#">Информатика</a></li>
+					<li><a href="#">Математика</a></li>
+					<li><a href="#">Физика</a></li>
+					<li><a href="#">География</a></li>
+					<li><a href="#">Русский язык и литература</a></li>
+					<li><a href="#">Английский язык</a></li>
+					<li><a href="#">Биология</a></li>
+					<li><a href="#">Обществознание</a></li>
+					<li><a href="#">История</a></li>
+					<li><a href="#">Химия</a></li>
+					<li><a href="#">Технология</a></li>
+					<li><a href="#">ОБЖ</a></li>
+					<li><a href="#">Немецкий язык</a></li>
+					<li><a href="#">Классному руководителю</a></li>
+					<li><a href="#">Факультативы</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="select-group">
+					<div class="select-group-top">
+						<ul>
+							<li class="active"><a href="#">все проекты</a></li>
+							<li><a href="#">видеороки</a></li>
+							<li><a href="#">электронные тетради</a></li>
+						</ul>
+					</div>
+					<div class="select-group-bottom">
+						<ul>
+							<li class="active"><a href="#">все классы</a></li>
+							<li><a href="#">1 класс</a></li>
+							<li><a href="#">2 класс</a></li>
+							<li><a href="#">3 класс</a></li>
+							<li><a href="#">4 класс</a></li>
+							<li><a href="#">5 класс</a></li>
+							<li><a href="#">6 класс</a></li>
+							<li><a href="#">7 класс</a></li>
+							<li><a href="#">8 класс</a></li>
+							<li><a href="#">9 класс</a></li>
+							<li><a href="#">10 класс</a></li>
+							<li><a href="#">11 класс</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- <div class="shop-group">
+					<div class="shop-group-tittle">
+						<h2>Комплекты для учителей начальних классов</h2>
+					</div>
+					<div class="shop-grop-row">
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+					</div>
+					<div class="shop-grop-row">
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+					</div>
+					<div class="shop-grop-row">
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="shop-group">
+					<div class="shop-group-tittle">
+						<h2>Комплекты для учителей начальних классов</h2>
+					</div>
+					<div class="shop-grop-row">
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+					</div>
+					<div class="shop-grop-row">
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+					</div>
+					<div class="shop-grop-row">
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" aria-hidden="true"></i>Заказать</p>
+							</div>
+						</div>
+						<div class="product">
+							<div class="new">Новинка</div>
+							<img src="etmath1.jpg" alt="">
+							<div class="about">
+								<a href="#">Электронная тетрадь по математике 1 клас</a>
+							</div>
+							<div class="price">
+								<p>1600 руб.</p>
+							</div>
+							<div class="order">
+								<p><i class="fa fa-shopping-cart" ></i>Заказать</p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<h1>Олимпиады «Февраль 2017»</h1>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<script> document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
